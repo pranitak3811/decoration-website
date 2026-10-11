@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Décor | Transforming Moments into Memories</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ====== NAVIGATION ====== -->
+<nav id="navbar">
+    <div class="nav-inner">
+        <div class="logo">
+            <span class="logo-icon">✦</span>
+            <span class="logo-text">Aura Décor</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="track.php">Track Booking</a></li>
+        </ul>
+        <a href="#booking" class="btn-book-nav">Book Now</a>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+</nav>
+
+<!-- ====== HERO ====== -->
+<section id="home" class="hero">
+    <div class="hero-bg">
+        <div class="hero-orb orb1"></div>
+        <div class="hero-orb orb2"></div>
+        <div class="hero-orb orb3"></div>
+        <div class="hero-grid"></div>
+    </div>
+    <div class="hero-content">
+        <p class="hero-tagline">✦ Premium Event Decoration ✦</p>
+        <h1 class="hero-title">Transforming<br><em>Moments</em><br>into Memories</h1>
+        <p class="hero-sub">We craft breathtaking decoration experiences for weddings, birthdays, corporate events & every celebration that matters.</p>
+        <div class="hero-btns">
+            <a href="#booking" class="btn-primary">Book Your Event</a>
+            <a href="#gallery" class="btn-outline">View Portfolio</a>
+        </div>
+        <div class="hero-stats">
+            <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Events Done</span></div>
+            <div class="stat-divider"></div>
+            <div class="stat"><span class="stat-num">98%</span><span class="stat-label">Happy Clients</span></div>
+            <div class="stat-divider"></div>
+            <div class="stat"><span class="stat-num">8+</span><span class="stat-label">Years Experience</span></div>
+        </div>
+    </div>
+    <div class="hero-scroll">
+        <span>Scroll Down</span>
+        <div class="scroll-line"></div>
+    </div>
+</section>
+
+<!-- ====== MARQUEE STRIP ====== -->
+<div class="marquee-strip">
+    <div class="marquee-track">
+        <span>✦ Wedding Décor</span>
+        <span>✦ Birthday Setups</span>
+        <span>✦ Corporate Events</span>
+        <span>✦ Baby Showers</span>
+        <span>✦ Anniversary Celebrations</span>
+        <span>✦ Festival Decoration</span>
+        <span>✦ Wedding Décor</span>
+        <span>✦ Birthday Setups</span>
+        <span>✦ Corporate Events</span>
+        <span>✦ Baby Showers</span>
+        <span>✦ Anniversary Celebrations</span>
+        <span>✦ Festival Decoration</span>
+    </div>
+</div>
+
+<!-- ====== SERVICES ====== -->
+<section id="services" class="section services-section">
+    <div class="container">
+        <div class="section-header">
+            <p class="section-tag">What We Offer</p>
+            <h2 class="section-title">Our Decoration <em>Services</em></h2>
+            <p class="section-sub">From intimate gatherings to grand celebrations, we create magical atmospheres for every occasion.</p>
+        </div>
+        <div class="services-grid" id="servicesGrid">
+            <!-- Loaded from PHP / Static fallback below -->
+            <div class="service-card">
+                <div class="service-icon">💍</div>
+                <h3>Wedding Decoration</h3>
+                <p>Complete wedding venue decoration including floral arrangements, lighting, stage setup, and table decor.</p>
+                <div class="service-price">Starting ₹25,000</div>
+                <a href="#booking" class="btn-service">Book Now →</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎂</div>
+                <h3>Birthday Party</h3>
+                <p>Fun and colorful birthday decorations with balloons, banners, cake table, and themed setups.</p>
+                <div class="service-price">Starting ₹8,000</div>
+                <a href="#booking" class="btn-service">Book Now →</a>
+            </div>
+            <div class="service-card featured-card">
+                <div class="featured-badge">Popular</div>
+                <div class="service-icon">🏢</div>
+                <h3>Corporate Events</h3>
+                <p>Professional event decoration for conferences, product launches, and corporate parties.</p>
+                <div class="service-price">Starting ₹15,000</div>
+                <a href="#booking" class="btn-service">Book Now →</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">👶</div>
+                <h3>Baby Shower</h3>
+                <p>Adorable baby shower setups with pastel themes, floral walls, and sweet table displays.</p>
+                <div class="service-price">Starting ₹7,000</div>
+                <a href="#booking" class="btn-service">Book Now →</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🌹</div>
+                <h3>Anniversary Party</h3>
+                <p>Romantic anniversary setups with elegant floral decor, lighting, and personalized touches.</p>
+                <div class="service-price">Starting ₹12,000</div>
+                <a href="#booking" class="btn-service">Book Now →</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🪔</div>
+                <h3>Festival Decoration</h3>
+                <p>Traditional and modern festival decoration for Diwali, Ganpati, Christmas & more.</p>
+                <div class="service-price">Starting ₹5,000</div>
+                <a href="#booking" class="btn-service">Book Now →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ====== GALLERY ====== -->
+<section id="gallery" class="section gallery-section">
+    <div class="container">
+        <div class="section-header">
+            <p class="section-tag">Our Work</p>
+            <h2 class="section-title">Portfolio <em>Gallery</em></h2>
+            <p class="section-sub">Browse through our stunning decoration work across different events and styles.</p>
+        </div>
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="Wedding">Wedding</button>
+            <button class="filter-btn" data-filter="Birthday">Birthday</button>
+            <button class="filter-btn" data-filter="Corporate">Corporate</button>
+            <button class="filter-btn" data-filter="Baby Shower">Baby Shower</button>
+            <button class="filter-btn" data-filter="Anniversary">Anniversary</button>
+            <button class="filter-btn" data-filter="Festival">Festival</button>
+        </div>
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="galleryGrid">
+            <div class="gallery-item" data-category="Wedding">
+                <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600" alt="Royal Wedding Setup">
+                <div class="gallery-overlay">
+                    <span class="gallery-cat">Wedding</span>
+                    <h4>Royal Wedding Setup</h4>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="Wedding">
+                <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=600" alt="Floral Wedding Arch">
+                <div class="gallery-overlay">
+                    <span class="gallery-cat">Wedding</span>
+                    <h4>Floral Wedding Arch</h4>
+                </div>
+            </div>
+            <div class="gallery-item large" data-category="Birthday">
+                <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600" alt="Birthday Balloon Wall">
+                <div class="gallery-overlay">
+                    <span class="gallery-cat">Birthday</span>
+                    <h4>Birthday Balloon Wall</h4>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="Corporate">
+                <img src="https://images.unsplash.com/photo-1431540015161-0bf868a2d407?w=600" alt="Corporate Gala">
+                <div class="gallery-overlay">
+                    <span class="gallery-cat">Corporate</span>
+                    <h4>Corporate Gala Night</h4>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="Baby Shower">
+                <img src="https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=600" alt="Baby Shower">
+                <div class="gallery-overlay">
+                    <span class="gallery-cat">Baby Shower</span>
+                    <h4>Baby Shower Pink Theme</h4>
+                </div>
+            </div>
+            <div class="gallery-item large" data-category="Anniversary">
+                <img src="https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600" alt="Anniversary">
+                <div class="gallery-overlay">
+                    <span class="gallery-cat">Anniversary</span>
+                    <h4>Romantic Anniversary Setup</h4>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="Festival">
+                <img src="https://images.unsplash.com/photo-1605197161470-5d0a4b1e0809?w=600" alt="Festival Decor">
+                <div class="gallery-overlay">
+                    <span class="gallery-cat">Festival</span>
+                    <h4>Diwali Festival Decor</h4>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="Wedding">
+                <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600" alt="Garden Wedding">
+                <div class="gallery-overlay">
+                    <span class="gallery-cat">Wedding</span>
+                    <h4>Outdoor Garden Wedding</h4>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="Birthday">
+                <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600" alt="Kids Birthday">
+                <div class="gallery-overlay">
+                    <span class="gallery-cat">Birthday</span>
+                    <h4>Kids Carnival Birthday</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ====== ABOUT ====== -->
+<section id="about" class="section about-section">
+    <div class="container about-grid">
+        <div class="about-visual">
+            <div class="about-img-main">
+                <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=700" alt="About Us">
+            </div>
+            <div class="about-img-accent">
+                <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=400" alt="Decoration Detail">
+            </div>
+            <div class="about-badge-float">
+                <span class="badge-num">8+</span>
+                <span class="badge-txt">Years of Excellence</span>
+            </div>
+        </div>
+        <div class="about-text">
+            <p class="section-tag">About Us</p>
+            <h2 class="section-title">We Create <em>Magical</em><br>Experiences</h2>
+            <p>At Aura Décor, every event is a canvas for creativity. Since 2016, we've been transforming ordinary venues into extraordinary experiences with passionate artistry and meticulous attention to detail.</p>
+            <p>Our team of 20+ creative professionals brings your vision to life — whether it's an intimate ceremony or a grand celebration for hundreds of guests.</p>
+            <div class="about-features">
+                <div class="ab-feat"><span class="ab-icon">✦</span><div><strong>Custom Themes</strong><p>Fully personalized decoration unique to your vision</p></div></div>
+                <div class="ab-feat"><span class="ab-icon">✦</span><div><strong>On-Time Delivery</strong><p>We set up perfectly before your guests arrive</p></div></div>
+                <div class="ab-feat"><span class="ab-icon">✦</span><div><strong>All Occasions</strong><p>From small gatherings to large-scale events</p></div></div>
+            </div>
+            <a href="#booking" class="btn-primary">Start Planning →</a>
+        </div>
+    </div>
+</section>
+
+<!-- ====== TESTIMONIALS ====== -->
+<section class="section testimonials-section">
+    <div class="container">
+        <div class="section-header">
+            <p class="section-tag">Client Reviews</p>
+            <h2 class="section-title">What Our <em>Clients</em> Say</h2>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testi-card">
+                <div class="stars">★★★★★</div>
+                <p>"Aura Décor made our wedding absolutely magical. Every detail was perfect — the floral arch was stunning and the lighting made it look like a fairy tale."</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">P</div>
+                    <div><strong>Priya Sharma</strong><span>Wedding — Mumbai</span></div>
+                </div>
+            </div>
+            <div class="testi-card testi-featured">
+                <div class="stars">★★★★★</div>
+                <p>"The team decorated our corporate launch event beautifully. Super professional, on time, and the setup was beyond our expectations. Highly recommended!"</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">R</div>
+                    <div><strong>Rahul Mehta</strong><span>Corporate Event — Pune</span></div>
+                </div>
+            </div>
+            <div class="testi-card">
+                <div class="stars">★★★★★</div>
+                <p>"My daughter's birthday party was the talk of the neighborhood! The balloon wall and cake table setup were incredible. Will definitely book again!"</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">S</div>
+                    <div><strong>Sunita Patel</strong><span>Birthday Party — Nagpur</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ====== BOOKING ====== -->
+<section id="booking" class="section booking-section">
+    <div class="container">
+        <div class="section-header">
+            <p class="section-tag">Get Started</p>
+            <h2 class="section-title">Book Your <em>Event</em></h2>
+            <p class="section-sub">Fill in your event details and we'll get back to you within 24 hours with a custom quote.</p>
+        </div>
+        <div class="booking-wrapper">
+            <form id="bookingForm" class="booking-form" method="POST" action="php/api.php?action=submit_booking">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Full Name *</label>
+                        <input type="text" name="client_name" placeholder="Your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address *</label>
+                        <input type="email" name="email" placeholder="your@email.com" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Phone Number *</label>
+                        <input type="tel" name="phone" placeholder="+91 98765 43210" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Event Type *</label>
+                        <select name="event_type" required>
+                            <option value="">Select Event Type</option>
+                            <option value="Wedding">Wedding</option>
+                            <option value="Birthday Party">Birthday Party</option>
+                            <option value="Corporate Event">Corporate Event</option>
+                            <option value="Baby Shower">Baby Shower</option>
+                            <option value="Anniversary">Anniversary</option>
+                            <option value="Festival">Festival Decoration</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Event Date *</label>
+                        <input type="date" name="event_date" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Number of Guests *</label>
+                        <input type="number" name="guest_count" placeholder="Expected guests" min="1" required>
+                    </div>
+                </div>
+                <div class="form-group full-width">
+                    <label>Venue / Location *</label>
+                    <input type="text" name="venue" placeholder="Venue name & city" required>
+                </div>
+                <div class="form-group full-width">
+                    <label>Budget Range</label>
+                    <select name="budget">
+                        <option value="">Select Budget</option>
+                        <option value="Under ₹10,000">Under ₹10,000</option>
+                        <option value="₹10,000 - ₹25,000">₹10,000 - ₹25,000</option>
+                        <option value="₹25,000 - ₹50,000">₹25,000 - ₹50,000</option>
+                        <option value="₹50,000 - ₹1,00,000">₹50,000 - ₹1,00,000</option>
+                        <option value="Above ₹1,00,000">Above ₹1,00,000</option>
+                    </select>
+                </div>
+                <div class="form-group full-width">
+                    <label>Special Requests / Theme Ideas</label>
+                    <textarea name="special_requests" rows="4" placeholder="Tell us your vision, theme preferences, or special requirements..."></textarea>
+                </div>
+                <button type="submit" class="btn-submit" id="submitBtn">
+                    <span>Confirm Booking</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+            </form>
+            <div id="bookingMsg" class="booking-msg" style="display:none;"></div>
+        </div>
+    </div>
+</section>
+
+<!-- ====== CONTACT ====== -->
+<section id="contact" class="section contact-section">
+    <div class="container contact-grid">
+        <div class="contact-info">
+            <p class="section-tag">Contact Us</p>
+            <h2 class="section-title">Let's <em>Connect</em></h2>
+            <p>Have questions? Reach out to us and our team will be happy to assist you with planning your perfect event.</p>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <span class="c-icon">📍</span>
+                    <div><strong>Visit Us</strong><p>123 Decoration Lane, Nagpur, Maharashtra 440001</p></div>
+                </div>
+                <div class="contact-item">
+                    <span class="c-icon">📞</span>
+                    <div><strong>Call Us</strong><p>+91 98765 43210</p></div>
+                </div>
+                <div class="contact-item">
+                    <span class="c-icon">✉️</span>
+                    <div><strong>Email Us</strong><p>hello@auradecor.in</p></div>
+                </div>
+                <div class="contact-item">
+                    <span class="c-icon">🕐</span>
+                    <div><strong>Working Hours</strong><p>Mon–Sat: 9am – 7pm</p></div>
+                </div>
+            </div>
+        </div>
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <label>Your Name</label>
+                <input type="text" name="name" placeholder="Full name" required>
+            </div>
+            <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" name="email" placeholder="your@email.com" required>
+            </div>
+            <div class="form-group">
+                <label>Your Message</label>
+                <textarea name="message" rows="5" placeholder="How can we help you?" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Send Message →</button>
+            <div id="contactMsg" class="booking-msg" style="display:none;margin-top:16px;"></div>
+        </form>
+    </div>
+</section>
+
+<!-- ====== FOOTER ====== -->
+<footer class="footer">
+    <div class="container footer-grid">
+        <div class="footer-brand">
+            <div class="logo">
+                <span class="logo-icon">✦</span>
+                <span class="logo-text">Aura Décor</span>
+            </div>
+            <p>Crafting unforgettable decoration experiences since 2016. Your vision, our artistry.</p>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">WhatsApp</a>
+            </div>
+        </div>
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#booking">Book Now</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <h4>Services</h4>
+            <ul>
+                <li><a href="#booking">Wedding Decoration</a></li>
+                <li><a href="#booking">Birthday Party</a></li>
+                <li><a href="#booking">Corporate Events</a></li>
+                <li><a href="#booking">Festival Decor</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2024 Aura Décor. All rights reserved. | Designed with ❤️</p>
+    </div>
+</footer>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox">
+    <div class="lightbox-inner">
+        <button class="lightbox-close" id="lightboxClose">✕</button>
+        <img id="lightboxImg" src="" alt="">
+        <p id="lightboxTitle"></p>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
